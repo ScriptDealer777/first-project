@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lesson</title>
+    <title>ОНО ТЕБЕ НАДО</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/local.css">
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">главная</a></li>
+                <li><a href="#">посмотреть лоты</a></li>
+                <li><a href="#">об аукционе</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="logo">
+            <img src="images/logo.svg" alt="Логотип">
+        </a>
+
+        <address class="contacts">
+            <p>+9 999 555 5555</p>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
+    </header>
+
+    <main class="cover">
+        <div class="overlay"></div>
+        <div class="cover__content">
+            <div class="cover__title">
+                <span class="title__word title__word--first">ОНО</span>
+                <span class="title__word title__word--second">ТЕБЕ</span>
+                <span class="title__word title__word--third">НАДО</span>
+            </div>
     
+            <div class="cover__description">
+                <p class="cover__description-text">
+                    АУКЦИОН ВЕЩЕЙ. В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
+                </p>
+                <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Секция Лоты -->
+    <section class="lots">
+        <h2>Лоты</h2>
+        <ul class="lots__list">
+            <li>
+                <article class="lot__item">Карточка 1</article>
+                <a href="#">Подробнее</a>
+            </li>
+            <li>
+                <article class="lot__item">Карточка 2</article>
+                <a href="#">Подробнее</a>
+            </li>
+            <li>
+                <article class="lot__item">Карточка 3</article>
+                <a href="#">Подробнее</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Секция Об аукционе -->
+    <section class="about common-section">
+        <div class="about__content">
+            <h2>Об аукционе</h2>
+            <p>Информация о мероприятии, его цели и правилах.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer common-section">
+        <nav class="footer__nav">
+            <ul>
+                <li><a href="#">главная</a></li>
+                <li><a href="#">посмотреть лоты</a></li>
+                <li><a href="#">об аукционе</a></li>
+            </ul>
+        </nav>
+        <address class="footer__contacts">
+            <p>+9 999 555 5555</p>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        </address>
+    </footer>
 </body>
 </html>

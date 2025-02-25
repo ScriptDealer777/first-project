@@ -1,0 +1,41 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.contacts {
+    font-family: 'Raleway', sans-serif; /* Шрифт */
+    font-weight: 400;                   /* Нормальный вес */
+    font-size: 18px;                    /* Размер шрифта */
+    line-height: 24.3px;                /* Межстрочный интервал */
+    text-align: right;                  /* Выравнивание текста */
+    color: black;                       /* Цвет текста */
+    font-style: normal;                 /* Убираем курсив */
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+/* --- Нижняя граница у номера телефона --- */
+.contacts__phone {
+    border-bottom: 1px solid black;     /* Только нижняя граница */
+    padding-bottom: 2px;                /* Отступ, чтобы текст не сливался с границей */
+    display: inline-block;              /* Чтобы граница обтекала текст */
+    color: black;                      /* Убедимся, что цвет правильный */
+    text-decoration: none;              /* Если вдруг ссылка */
+}
+
+/* --- Общие стили для текста навигации, контактов и about --- */
+.common-text {
+    font-family: 'Raleway', sans-serif; /* Шрифт */
+    font-size: 18px;                    /* Размер шрифта */
+    line-height: 24.3px;                /* Межстрочный интервал */
+    color: black;                       /* Цвет текста */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;              /* Убираем подчёркивание у ссылок */
+}
